@@ -4,14 +4,14 @@
 ![pic2](https://github.com/user-attachments/assets/88d1db52-36de-4aaf-a2d6-40b7c647e647)
 
 
-# This Project Contain :
+# This Project Contains :
 
 ## Note : 
-    - All Routers contain Enable Password "cisco12345"
+    - All routers have the enable password set to: cisco12345
 
-## 🔧Basic configuration :
+## 🔧Basic configuration Includes:
 
-- Subnetting
+- Subnetting (VLSM)
 - OSPF Routing
 - Switching
 - Wireless Connectivity
@@ -102,11 +102,12 @@ Number of subnets: Going from /29 to /30 increases the number of bits for subnet
 
 ### 🔸Router 3
 
-** User:  admin3   &  pass: admin3pa55
-   Enable: ciscopa55
-   view1:  view1/view1pa55
-   view2:  view2/view2pa55
-   view3:  view3/view3pa55
+** Admin Access:
+    admin3 / admin3pa55
+    Enable: ciscopa55
+    View1: view1 / view1pa55
+    View2: view2 / view2pa55
+    View3: view3 / view3pa55
 
 - Role-Based Administrative Access (3 Views)
 
@@ -114,7 +115,7 @@ Number of subnets: Going from /29 to /30 increases the number of bits for subnet
 
 ### 🔸Router 4
 
-** User:  Admin4   &  pass: admin4pa55
+** Admin Access: Admin4 / admin4pa55
 
 - 4 VLANs with Inter-VLAN Routing
 - VLAN Security
@@ -126,7 +127,7 @@ Number of subnets: Going from /29 to /30 increases the number of bits for subnet
 
 ### 🔸Router 5
 
-** User:  admin5   &  pass: admin5pa55
+** Admin Access: admin5 / admin5pa55
 
 - Apply Port Security for wired PCs
 - Apply 802.1x for wireless PCs
@@ -137,7 +138,7 @@ Number of subnets: Going from /29 to /30 increases the number of bits for subnet
 
 ### 🔸Router 6
 
-** User:  admin6   &  pass: admin6pa55
+** Admin Access: admin6 / admin6pa55
 
 - Implements Zone-Based Policy Firewall (ZPF)
 - Sticky Port Security
@@ -146,7 +147,7 @@ Number of subnets: Going from /29 to /30 increases the number of bits for subnet
 
 ### 🔸Router 7
 
-** User:  admin7   &  pass: admin7pa55
+** Admin Access: admin7 / admin7pa55
 
 - Intrusion Prevention System (IPS)
   - Outside-to-Inside traffic is restricted
@@ -157,7 +158,7 @@ Number of subnets: Going from /29 to /30 increases the number of bits for subnet
 
 ### 🔸Router 8
 
-** User:  admin8   &  pass: admin8pa55
+** Admin Access: admin8 / admin8pa55
 
 - Interfaces with 3 IPv6 networks (Loopback + G0/0/0 + G0/0/1)
 
@@ -171,7 +172,7 @@ Number of subnets: Going from /29 to /30 increases the number of bits for subnet
 
 ### 🔥 Cisco ASA Firewall
 
-** User:  admin   &  pass: admin12345
+** Admin: admin / admin12345
 
 - Configured with 3 Security Zones:
     - INSIDE
